@@ -14,7 +14,7 @@ from routers.auth import auth_router
 from routers.users import users_router
 
 # Creación de la aplicación FastAPI
-app = FastAPI(title="rest_auth backend", version="0.0.1")
+app = FastAPI(title="rest_auth backend", version="0.0.2")
 
 # Configuración de CORS
 app.add_middleware(
